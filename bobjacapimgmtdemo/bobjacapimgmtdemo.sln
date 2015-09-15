@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bobjacapimgmtdemo", "bobjacapimgmtdemo\bobjacapimgmtdemo.csproj", "{B7603F84-C9B4-4573-850A-0771CB47E131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1144D948-969C-45B2-8C15-E5B4783E0353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9B86C399-F05B-4A5A-8BBD-0417DED05C74}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{97E47314-001E-4E19-8F82-6943CEAF78E6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\bobjacapimgmtdemo.json = PublishScripts\Templates\bobjacapimgmtdemo.json
+		PublishScripts\Templates\bobjacapimgmtdemo.param.dev.json = PublishScripts\Templates\bobjacapimgmtdemo.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemoEventHubListener", "ApiDemoEventHubListener\ApiDemoEventHubListener.csproj", "{6BBF0D56-64AE-4007-9A27-2FB67EAABA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7603F84-C9B4-4573-850A-0771CB47E131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7603F84-C9B4-4573-850A-0771CB47E131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7603F84-C9B4-4573-850A-0771CB47E131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7603F84-C9B4-4573-850A-0771CB47E131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBF0D56-64AE-4007-9A27-2FB67EAABA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBF0D56-64AE-4007-9A27-2FB67EAABA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBF0D56-64AE-4007-9A27-2FB67EAABA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBF0D56-64AE-4007-9A27-2FB67EAABA33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B86C399-F05B-4A5A-8BBD-0417DED05C74} = {1144D948-969C-45B2-8C15-E5B4783E0353}
+		{97E47314-001E-4E19-8F82-6943CEAF78E6} = {1144D948-969C-45B2-8C15-E5B4783E0353}
+	EndGlobalSection
+EndGlobal
