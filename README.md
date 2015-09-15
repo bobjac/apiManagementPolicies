@@ -1,1 +1,2 @@
-apiManagementPolicies
+This is a repository containing Azure API mamangement polcies that can be used for demo purposes.
+There will also be supporting REST scripts to turn on features such as EventHub logging from the proxy.
